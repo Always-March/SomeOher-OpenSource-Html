@@ -28,7 +28,8 @@ public void genpic(OutputStream os,String data) throws IOException
 		String data="";//产生4位数
 		//int idata=(int)Math.round(Math.random()*40+60);//60-100
 		//1000  9999
-		int idata=(int)Math.round(Math.random()*8999+1000);
+		int idata=(int)Math.round(Math.random()*8999+100);
 		data=data+idata;
 		genpic(resp.getOutputStream(),data);
 	}
+yangjiaqi 
