@@ -25,7 +25,7 @@ public void genpic(OutputStream os,String data) throws IOException
 	
 	public void doGet(HttpServletRequest req,HttpServletResponse resp) throws IOException
 	{
-		String data="";//产生4位数
+		String data="";//虏煤脡煤4脦禄脢媒
 		//int idata=(int)Math.round(Math.random()*40+60);//60-100
 		//1000  9999
 		int idata=(int)Math.round(Math.random()*8999+100);
@@ -33,3 +33,4 @@ public void genpic(OutputStream os,String data) throws IOException
 		genpic(resp.getOutputStream(),data);
 	}
 yangjiaqi 
+dingzhiqia
